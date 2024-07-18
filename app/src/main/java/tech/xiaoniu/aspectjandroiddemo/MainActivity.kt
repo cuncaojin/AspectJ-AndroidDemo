@@ -1,6 +1,7 @@
 package tech.xiaoniu.aspectjandroiddemo
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import tech.xiaoniu.aspect.DebugLog
 
@@ -16,5 +17,6 @@ class MainActivity : AppCompatActivity() {
 
     @DebugLog
     fun initView() {
+        Log.e("yg", "initView run...")
     }
 }
